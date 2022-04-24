@@ -13,4 +13,12 @@ Presentation: Engaging, does not read off slides 5
 
 Presentation: Responds to questions well 5
 
-Demonstration of Program
+Demonstration of Program 10
+
+
+## research
+
+For this project, I had to learn a lot about using python to affect website html.
+
+
+## works cited
