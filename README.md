@@ -18,9 +18,9 @@ Demonstration of Program 10
 
 ## research
 
-For this project, I had to learn a lot about using python to affect website html. I chose to research the Selenuim tool and how it uses html attributes such as id or class to identify components on the website. I also found out it used a webdriver to open the browser and input data on its own, so I had to find documentation as to how to install and use that webdriver. \n
-A main challenge was finding a website that allowed bruteforcing. After some research I found that many Software companies set up websites and web applications for beginners to test programs on. I found a website created by IBM (https://demo.testfire.net/) with a login page that allowed me to input values as needed. \n
-The main problem with my program was that it 
+For this project, I had to learn a lot about using python to affect website html. I chose to research the Selenuim tool and how it uses html attributes such as id or class to identify components on the website. I also found out it used a webdriver to open the browser and input data on its own, so I had to find documentation as to how to install and use that webdriver.  
+A main challenge was finding a website that allowed bruteforcing. After some research I found that many Software companies set up websites and web applications for beginners to test programs on. I found a website created by IBM (https://demo.testfire.net/) with a login page that allowed me to input values as needed.  
+The main problem with my program was that it can take some time to load the webdriver and start inputting values.
 
 
 ## works cited
