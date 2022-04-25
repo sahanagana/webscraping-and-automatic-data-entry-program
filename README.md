@@ -24,6 +24,6 @@ The main problem with my program was that it can take some time to load the webd
 
 
 ## works cited
-https://www.geeksforgeeks.org/how-to-install-selenium-in-python/
-https://www.hongkiat.com/blog/automate-create-login-bot-python-selenium/
-https://sites.google.com/chromium.org/driver/downloads?authuser=0
+https://www.geeksforgeeks.org/how-to-install-selenium-in-python/  
+https://www.hongkiat.com/blog/automate-create-login-bot-python-selenium/  
+https://sites.google.com/chromium.org/driver/downloads?authuser=0  
