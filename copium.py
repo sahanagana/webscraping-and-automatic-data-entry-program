@@ -24,13 +24,13 @@ for line in users:
         userString = line.rstrip()
         passString = line2.rstrip()
         # find HTML elements by their id and fill in corresponding values
-        username = browser.find_element_by_id('uid')
+        username = browser.find_element_by_name('username')
         username.send_keys(userString)
-        password = browser.find_element_by_id('passw')
+        password = browser.find_element_by_name('password')
         password.send_keys(passString)
         
         #find the sign in button and hit dat
-        signInButton = browser.find_element_by_name('btnSubmit')
+        signInButton = browser.find_element_by_id('myButton')
         signInButton.click()
         time.sleep(5)
 
