@@ -19,6 +19,7 @@ browser.get(link)
 users = ['notsahana', 'bruh', 'username']
 passkeys= ['password', 'bruh', 'ucool']
 
+
 for line in users:
     for line2 in passkeys:
         userString = line.rstrip()
@@ -33,5 +34,7 @@ for line in users:
         signInButton = browser.find_element_by_id('myButton')
         signInButton.click()
         time.sleep(5)
+        if(!(EC.presence_of_element_located((By.TAG_NAME, 'Passwd'))))):
+                
 
 #add
