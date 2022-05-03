@@ -33,8 +33,13 @@ for line in users:
         #find the sign in button and hit dat
         signInButton = browser.find_element_by_id('myButton')
         signInButton.click()
-        time.sleep(5)
-        if(!(EC.presence_of_element_located((By.TAG_NAME, 'Passwd'))))):
-                
+        time.sleep(2)
+        
+        if(!(EC.presence_of_element_located((By.TAG_NAME, 'body'))))):
+            header = browser.find_element_by_tag_name('body').getText()
+            if header == 'Logged In!':
+                break;
+            else:
+                driver.navigate().back()
 
 #add

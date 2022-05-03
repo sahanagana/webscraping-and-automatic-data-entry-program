@@ -36,4 +36,5 @@ with open("usernames.txt") as users:
             signInButton.click()
             time.sleep(5)
 
-#add
+#add sign in and recieving data
+
