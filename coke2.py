@@ -34,7 +34,6 @@ for line in users:
         #find the sign in button and hit dat
         signInButton = browser.find_element_by_id('myButton')
         signInButton.click()
-        time.sleep(2)
         
         if (EC.presence_of_element_located((By.TAG_NAME, 'body'))):
             header = browser.find_element_by_tag_name('body').text
