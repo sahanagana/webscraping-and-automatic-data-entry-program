@@ -25,8 +25,10 @@ for line in users:
         passString = line2.rstrip()
         # find HTML elements by their id and fill in corresponding values
         username = browser.find_element_by_name('username')
+        username.clear()
         username.send_keys(userString)
         password = browser.find_element_by_name('password')
+        password.clear()
         password.send_keys(passString)
         
         #find the sign in button and hit dat
@@ -35,14 +37,13 @@ for line in users:
         time.sleep(2)
         
         if (EC.presence_of_element_located((By.TAG_NAME, 'body'))):
-            header = browser.find_element_by_tag_name('body').getText()
+            header = browser.find_element_by_tag_name('body').text
             time.sleep(2)
             if header == 'Logged In!':
-            	print ("aosjdflasjfd")
-            	driver.navigate().to(link);
+            	print(line, line2)
+            	browser.back()
             else:
-            	print("djsfakl;jsdfkl")
-            	driver.navigate().to(link);
+            	browser.back()
 
 
 #add
