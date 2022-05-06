@@ -28,3 +28,6 @@ However, the website was created for SQL injection testing and not login testing
 https://www.geeksforgeeks.org/how-to-install-selenium-in-python/  
 https://www.hongkiat.com/blog/automate-create-login-bot-python-selenium/  
 https://sites.google.com/chromium.org/driver/downloads?authuser=0  
+https://www.youtube.com/watch?v=q397v79AeDs
+https://requestswebsite.notanothercoder.repl.co/
+https://github.com/LouisTheXIV/Website-Bruteforcer/blob/master/bruteforcer.py
